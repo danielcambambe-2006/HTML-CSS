@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <H1>inserindo Vídeos hospedados localmente</H1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midia/video.mp4" width="300" controls loop></video>
+    <video width="300" height="300" poster="imagens/500x.jpeg" controls loop>
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.mkv" type="video/mkv">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogv">
+        <p>Seu navegador não é compátivel com os formatos de vídeo</p>
+    </video>
+     <h1>inserindo Vídeos do Youtube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=a0ndRt3q3HAA9HT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     <h2>Agora temos um vídeo do Vimeo</h2>
+     <iframe src="https://player.vimeo.com/video/330207644?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="533" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Animation reel_2018"></iframe>
+
+</body>
+</html>
